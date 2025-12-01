@@ -1,0 +1,42 @@
+Arduino IDE temporary files
+
+*.elf
+*.bin
+*.hex
+*.map
+*.uf2
+*.srec
+*.tmp
+build/
+local/
+
+ESP8266 specific
+
+*.bin.signed
+*.partitions.bin
+
+VS Code / PlatformIO (if used)
+
+.vscode/
+.pio/
+.pioenvs/
+lib/
+src/
+
+MacOS junk
+
+.DS_Store
+
+Windows junk
+
+Thumbs.db
+
+Private credentials (safety precaution)
+
+It is better to use a config.h file for wifi passwords and ignore it,
+
+but for this specific code, users often hardcode it.
+
+Ideally, do not upload your real WiFi password to a public repo.
+
+secrets.h
