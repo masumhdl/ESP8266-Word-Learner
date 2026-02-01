@@ -1,6 +1,6 @@
 📚 ESP8266 WiFi Word Learner (Infinite Vocabulary)
 
-A smart, WiFi-connected vocabulary learning assistant powered by an ESP8266, a 1.44" TFT Screen, and an SD Card reader.
+A smart, WiFi-connected vocabulary learning assistant powered by an ESP8266, a 1.8" TFT Screen, and an SD Card reader.
 
 Unlike standard Arduino projects that crash with large text files, this project uses a memory-optimized streaming engine. It can read vocabulary lists with thousands of lines (even 5000+) directly from the SD card without using up the ESP8266's limited RAM.
 
@@ -171,5 +171,6 @@ Screen White/Blank: Check wiring, especially RESET and DC pins.
 Stops after 2-3 hours: Ensure you are using the latest version of the code which includes the Memory Fragmentation Fix (streaming bytes instead of Strings).
 
 📜 License
+
 
 This project is open-source. Feel free to modify and improve!
